@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px;
+}
+
+a:hover{
+    color: #FF6565;
+}
+
+a:active{
+    color: #FF6565;
+}
+
+main{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+main p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+button {
+    margin: 25px;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: #FF6565;
+    color: white;
+    font-size: 10px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+
