@@ -24,17 +24,18 @@ a:active{
 }
 
 main{
-    position: absolute;
-    bottom: 100px;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     color: white;
-    text-align: center;
+    align-items: center;
+    margin-top: 300px;
 }
 
 main p {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
     line-height: 1.6;
+    text-align: center;
+    font-weight: 10;
 }
 
 button {
